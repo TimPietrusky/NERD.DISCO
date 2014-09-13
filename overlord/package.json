@@ -1,0 +1,15 @@
+{
+  "name": "backend",
+  "version": "0.0.0",
+  "description": "",
+  "main": "findTessel.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tim Pietrusky <timpietrusky@gmail.com> (http://timpietrusky.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "tessel": "~0.3.13",
+    "nodejs-websocket": "~1.0.0"
+  }
+}

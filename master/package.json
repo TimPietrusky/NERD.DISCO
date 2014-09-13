@@ -1,0 +1,28 @@
+{
+  "name": "master-server",
+  "version": "0.0.1",
+  "description": "Master of all the Tessels",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TimPietrusky/NERD.DISCO"
+  },
+  "keywords": [
+    "NERD",
+    "DISCO",
+    "master",
+    "socket.io"
+  ],
+  "author": "Tim Pietrusky <timpietrusky@gmail.com> (http://timpietrusky.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TimPietrusky/NERD.DISCO/issues"
+  },
+  "homepage": "https://github.com/TimPietrusky/NERD.DISCO",
+  "devDependencies": {
+    "nodejs-websocket": "~0.1.5"
+  }
+}

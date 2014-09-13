@@ -1,0 +1,14 @@
+{
+  "name": "audio-visualization",
+  "version": "0.0.1",
+  "description": "Visualize audio using the Web Audio API and Canvas",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tim Pietrusky <timpietrusky@gmail.com> (http://timpietrusky.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "nodejs-websocket": "~0.1.5"
+  }
+}
