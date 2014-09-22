@@ -7,12 +7,32 @@
 
     <title>NERD DISCO</title>
 
-    <script src="audio-visualization.js"></script>
     <script src="client.js"></script>
+    
 
     <style type="text/css">
+      body {
+        font: 2em 'Ubuntu', sans-serif;
+      }
+
       [data-js="frequency"] {
-        font-size: 10em;
+        font-size: 7em;
+      }
+
+      ul {
+        padding: .5em;
+        margin: 0;
+        background: #ccc;
+      }
+
+      li {
+        list-style: none;
+        margin: 0 0 .75em 0;
+        cursor: pointer;
+      }
+
+      li:last-child {
+        margin: 0;
       }
     </style>
 
@@ -20,9 +40,13 @@
 
   <body>
 
-    <!-- <canvas id="canvas" width="60" height="130" style="display: block;"></canvas> -->
-
     <div data-js="frequency">0</div>
+
+    <ul data-js="audiolist">
+      <li data-url="audio/Narrow_Road-Overtaken.mp3">Narrow Road - Overtaken</li>
+      <li data-url="audio/Narrow_Road-Attack!.mp3">Narrow Road - Attack!</li>
+      <li data-url="audio/Narrow_Road-Energy.mp3">Narrow Road - Energy</li>
+    </ul>
 
   </body>
 

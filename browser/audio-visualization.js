@@ -15,8 +15,8 @@ var analyser, analyser2;
 var javascriptNode;
 
 // load the sound
-setupAudioNodes();
-loadSound("audio/Narrow_Road-Overtaken.mp3");
+// setupAudioNodes();
+// loadSound("audio/Narrow_Road-Overtaken.mp3");
 
 function setupAudioNodes() {
 
@@ -80,17 +80,33 @@ function playSound(buffer) {
     sourceNode.start(0);
 }
 
+function stopSound() {
+    sourceNode.stop();
+}
+
 // log if an error occurs
 function onError(e) {
     console.log(e);
 }
 
+function pauseSound() {
+    sourceNode.disconnect();
+}
 
+function resumeSound() {
+    // connect the source to the analyser and the splitter
+    sourceNode.connect(splitter);
 
+    // connect one of the outputs from the splitter to
+    // the analyser
+    splitter.connect(analyser,0,0);
+    splitter.connect(analyser2,1,0);
 
-
-
-
+    // we use the javascript node to draw at a
+    // specific interval.
+    analyser.connect(javascriptNode);
+    sourceNode.connect(context.destination);
+}
 
 
 // when the javascript node is called

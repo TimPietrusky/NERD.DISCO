@@ -11,7 +11,7 @@ var // Default
 // Create a connetion to the master
 _websocketSlave.connect(
   {
-    ip : '192.168.55.101:1337',
+    ip : 'localhost:1337',
     enableReconnect : true,
     eventEmitter : _eventEmitter
   }
