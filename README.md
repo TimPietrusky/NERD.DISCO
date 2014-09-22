@@ -1,7 +1,7 @@
 NERD.DISCO
 ==========
 
-A combination of soft- & hardware to create a visualisation based on sound:
+A combination of soft- & hardware to create visualisations based on sound:
 
 * Frontend: JavaScript (Web Audio API, WebSockets, Angular.js), HTML, SCSS
 * Backend: Node.js
