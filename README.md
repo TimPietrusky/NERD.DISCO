@@ -11,7 +11,9 @@ A combination of soft- & hardware to create a visualisation based on sound:
 * LEDs: [Adafruit NeoPixel](http://www.adafruit.com/category/168)
 
 
-## Talk
+## JSConf EU 2014
+
+![NERD DISCO at JSConf EU 2014 by Tim Pietrusky](https://pbs.twimg.com/media/Bxb-0PAIIAA96Nb.jpg)
 
 The first version was presented at [JSConf EU 2014](http://2014.jsconf.eu/speakers/tim-pietrusky-nerd-disco.html) ([slides](https://slides.com/timpietrusky/nerd-disco)). 
 
